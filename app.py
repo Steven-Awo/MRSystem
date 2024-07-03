@@ -27,7 +27,7 @@ def recomMovie(movie):
 
     movie_recommended_poster = []
 
-    for r in distn[1:6]:
+    for r in distn[1:31]:
         movie_id = moviess.iloc[r[0]]['movie_id']
         
         movie_recommended_poster.append(fetching_poster(movie_id))
